@@ -8,6 +8,6 @@ function getSpeciesByIds(...ids) {
   return speciesFinding;
 }
 
-console.log(getSpeciesByIds('533bebf3-6bbe-41d8-9cdf-46f7d13b62ae'));
+getSpeciesByIds('533bebf3-6bbe-41d8-9cdf-46f7d13b62ae', '78460a91-f4da-4dea-a469-86fd2b8ccc84');
 
 module.exports = getSpeciesByIds;
