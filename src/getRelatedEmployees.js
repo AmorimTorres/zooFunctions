@@ -1,4 +1,5 @@
 const data = require('../data/zoo_data');
+
 const { employees } = data;
 
 function isManager(id) {
@@ -16,6 +17,6 @@ function getRelatedEmployees(managerId) {
 
 isManager('b0dc644a-5335-489b-8a2c-4e086c7819a2');
 
-console.log(getRelatedEmployees('b0dc644a-5335-489b-8a2c-4e086c7819a2'));
+getRelatedEmployees('b0dc644a-5335-489b-8a2c-4e086c7819a2');
 
 module.exports = { isManager, getRelatedEmployees };

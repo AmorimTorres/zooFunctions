@@ -1,4 +1,5 @@
 const data = require('../data/zoo_data');
+
 const { species } = data;
 
 function countAnimals(animal) {
@@ -19,6 +20,6 @@ function countAnimals(animal) {
   }, {})[animal.specie];
 }
 
-console.log(countAnimals({ specie: 'snakes', sex: 'female' }));
+countAnimals({ specie: 'snakes', sex: 'female' });
 
 module.exports = countAnimals;
